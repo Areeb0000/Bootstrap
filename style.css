@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.collapse .navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0% !important;
+}
+.page {
+  color: white !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+  border: 1px solid white;
+}
+.navbar-brand {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+/*  */
+
+/* Menu */
+
+.price {
+  color: rgb(252, 60, 102);
+  font-weight: bold;
+}
+.strike {
+  font-size: 82%;
+}
+.m1 {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+/*  */
+
+/* Deal */
+
+.deal .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.btn2 {
+  text-decoration: none;
+}
+.d1 {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+/*  */
+
+/* About */
+
+.a1 {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+/*  */
+
+/* Feedback Form */
+.f1 {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.e1:hover {
+  background-color: rgb(253, 73, 2);
+  border-radius: 30px;
+}
+.e2:hover {
+  background-color: rgb(255, 114, 32);
+  border-radius: 30px;
+}
+.e3:hover {
+  background-color: rgb(248, 183, 4);
+  border-radius: 30px;
+}
+.e4:hover {
+  background-color: rgb(122, 248, 4);
+  border-radius: 30px;
+}
+.e5:hover {
+  background-color: rgb(7, 211, 35);
+  border-radius: 30px;
+}
+
+.emoji {
+  border-radius: 30px;
+}
+
+.emoji.red {
+  background-color: rgb(253, 73, 2);
+}
+
+.emoji.orange {
+  background-color: rgb(255, 114, 32);
+}
+
+.emoji.yellow {
+  background-color: rgb(248, 183, 4);
+}
+
+.emoji.light-green {
+  background-color: rgb(122, 248, 4);
+}
+
+.emoji.dark-green {
+  background-color: rgb(7, 211, 35);
+}
+
+.btn1 {
+  padding: 0.8% 7% 0.8% 7%;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.btn1:hover {
+  color: black;
+  transition: 0.5s;
+}
+.btn1:not(:hover) {
+  transition: 0.5s;
+}
+
+/*  */
+
+.n1 {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
