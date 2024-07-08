@@ -24,6 +24,9 @@
   font-style: normal;
   font-size: 35px;
 }
+.dropdown-item{
+  --bs-dropdown-link-active-bg: #ffc107 !important;
+}
 
 /*  */
 
