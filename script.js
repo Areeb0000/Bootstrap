@@ -58,3 +58,14 @@ navbarLinks.forEach((link) => {
     document.querySelector(".navbar-collapse").classList.remove("show");
   });
 });
+
+// Navbar Color On Scroll
+
+let navbar = document.querySelector(".navbar");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 80) {
+    navbar.style.background = "radial-gradient(circle, rgba(255,195,15,1) 14%, rgba(255,126,14,1) 100%)";
+  } else {
+    navbar.style.background = "transparent"
+  }
+});
