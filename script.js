@@ -62,10 +62,21 @@ navbarLinks.forEach((link) => {
 // Navbar Color On Scroll
 
 let navbar = document.querySelector(".navbar");
+
+// Add event listener for touchmove event
+document.addEventListener("touchmove", (e) => {
+  if (e.touches[0].clientY < e.touches[0].screenY) { // scrolling up
+    navbar.style.background = "transparent";
+  } else { // scrolling down
+    navbar.style.background = "radial-gradient(circle, rgba(255,195,15,1) 14%, rgba(255,126,14,1) 100%)";
+  }
+});
+
+// Add event listener for scroll event
 window.addEventListener("scroll", () => {
   if (window.scrollY > 80) {
     navbar.style.background = "radial-gradient(circle, rgba(255,195,15,1) 14%, rgba(255,126,14,1) 100%)";
   } else {
-    navbar.style.background = "transparent"
+    navbar.style.background = "transparent";
   }
 });
